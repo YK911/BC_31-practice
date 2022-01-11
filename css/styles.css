@@ -1,0 +1,166 @@
+@font-face {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Gilroy-Regular.woff) format("woff"),
+    url(../fonts/Gilroy-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/Gilroy-Semibold.woff) format("woff"),
+    url(../fonts/Gilroy-Semibold.woff2) format("woff2");
+}
+:root {
+  /* Text color */
+  --main-txt-cl: #000000;
+  --accent-txt-cl: #f7941e;
+  --secondary-txt-cl: #ffffff;
+  /* Button color */
+  --btn-txt-cl: #f7941e;
+  --btn-secondary-cl: #231f20;
+  --btn-white-cl: #ffffff;
+  /* Bgc color */
+  --main-bgc-cl: #ffffff;
+  --secondary-bgc-cl: #f1f1f2;
+  --accent-bgc-cl: #f7941e;
+  --dark-bgc-cl: #231f20;
+  /* Fonts */
+  --main-font: Gilroy;
+  --secondary-font: "Homemade Apple";
+  /* Others */
+  --main-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  --btn-radius: 5px;
+}
+body {
+  font-family: var(--main-font);
+  font-size: 20px;
+  line-height: 1.4;
+  color: var(--main-txt-cl);
+  background-color: var(--main-bgc-cl);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.title {
+  font-size: 32px;
+}
+/* Button */
+.primary-btn {
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  color: var(--btn-txt-cl);
+  background-color: transparent;
+  border: 1px solid var(--accent-bgc-cl);
+  border-radius: var(--btn-radius);
+}
+.primary-invert-btn {
+  color: var(--btn-white-cl);
+  background-color: var(--accent-bgc-cl);
+}
+.secondary-btn {
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  color: var(--main-txt-cl);
+  background-color: transparent;
+  border: 1px solid var(--btn-secondary-cl);
+  border-radius: var(--btn-radius);
+}
+.secondary-invert-btn {
+  color: var(--btn-white-cl);
+  background-color: var(--btn-secondary-cl);
+}
+/* Logo */
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  line-height: 2.16;
+  color: var(--btn-secondary-cl);
+}
+.accent {
+  color: var(--accent-txt-cl);
+}
+/* Header */
+.nav-link {
+  color: inherit;
+  font-size: 18px;
+}
+/* Hero */
+.hero {
+  background-color: var(--secondary-bgc-cl);
+}
+.hero-title {
+  font-size: 56px;
+}
+/* Work */
+.work {
+  background-color: var(--secondary-bgc-cl);
+}
+
+/* Products */
+.quote {
+  font-size: 18px;
+  line-height: 1.18;
+}
+.product-link {
+  font-size: 14px;
+  line-height: 1.35;
+}
+/* Promo */
+.promo {
+  background-color: var(--accent-bgc-cl);
+}
+.promo-title {
+  font-size: 32px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+.promo-subtitle {
+  font-size: 32px;
+  line-height: 1.4;
+}
+/* Blogs */
+.blogs-wrapper {
+  background-color: var(--dark-bgc-cl);
+  color: var(--secondary-txt-cl);
+}
+.uptitle {
+  font-size: 14px;
+}
+.blogs-title {
+  font-size: 48px;
+  line-height: 1.2;
+}
+.blogs-link {
+  color: currentColor;
+  font-size: 18px;
+}
+.blogs-card-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.blogs-card-text {
+  font-size: 18px;
+}
+.blogs-card-link {
+  font-size: 14px;
+}
+/* Footer */
+.footer-nav-link {
+  font-size: 14px;
+  color: currentColor;
+}
+.footer-copyright {
+  font-size: 14px;
+}
+.footer-copyright a {
+  color: currentColor;
+}
