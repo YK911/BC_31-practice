@@ -42,17 +42,30 @@ body {
   color: var(--main-txt-cl);
   background-color: var(--main-bgc-cl);
 }
+
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
 }
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .title {
   font-size: 32px;
 }
 /* Button */
 .primary-btn {
+  padding: 15px 20px;
   font-size: 18px;
   line-height: 1.22;
   text-transform: uppercase;
@@ -89,16 +102,56 @@ a {
   color: var(--accent-txt-cl);
 }
 /* Header */
+.header{
+  padding: 38px 0;
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .nav-link {
   color: inherit;
   font-size: 18px;
+  display: inline-block;
+  margin-left: 31px;
+}
+
+.nav-link:first-child{
+  margin: 0;
 }
 /* Hero */
+
 .hero {
   background-color: var(--secondary-bgc-cl);
+  background-image: url(../images/couple.jpg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 360px);
+  padding-top: 154px;
+  padding-bottom: 135px;
 }
+
+.hero-container{
+  display: flex;
+}
+
+.hero-wrap{
+  width: 433px;
+}
+
 .hero-title {
   font-size: 56px;
+  margin-bottom: 32px;
+  line-height: 1.23;
+}
+
+.main-text{
+  margin-bottom: 52px;
 }
 /* Work */
 .work {
