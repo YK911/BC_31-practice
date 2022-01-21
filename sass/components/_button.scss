@@ -1,0 +1,31 @@
+/* Button */
+.primary-btn {
+  padding: 15px 20px;
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  color: var(--btn-txt-cl);
+  background-color: transparent;
+  border: 1px solid var(--accent-bgc-cl);
+  border-radius: var(--btn-radius);
+  cursor: pointer;
+}
+.primary-invert-btn {
+  color: var(--btn-white-cl);
+  background-color: var(--accent-bgc-cl);
+}
+.secondary-btn {
+  padding: 15px 20px;
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  color: var(--main-txt-cl);
+  background-color: transparent;
+  border: 1px solid var(--btn-secondary-cl);
+  border-radius: var(--btn-radius);
+  cursor: pointer;
+}
+.secondary-invert-btn {
+  color: var(--btn-white-cl);
+  background-color: var(--btn-secondary-cl);
+}

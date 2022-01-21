@@ -1,0 +1,73 @@
+/* Blog */
+.blog {
+    padding-top: 80px;
+    padding-bottom: 88px;
+  }
+  .blog-title {
+    margin-bottom: 23px;
+    font-size: 32px;
+    line-height: 1.18;
+    text-align: center;
+  }
+  .blog .quote {
+    text-align: center;
+  }
+  .blog-wrapper {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 40px;
+
+    background-color: var(--dark-bgc-cl);
+    color: var(--secondary-txt-cl);
+  }
+  .blog-holder {
+    padding: 63px 78px 49px;
+    text-align: left;
+  }
+  .blog-holder-uptitle {
+    margin-bottom: 27px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .blog-holder-title {
+    margin-bottom: 60px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  .blog-holder-link {
+    color: currentColor;
+    font-size: 18px;
+  }
+
+  .blog-list {
+    display: flex;
+    align-items: center;
+  }
+
+  .blog-card {
+    margin-right: 30px;
+    padding: 48px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  }
+  .blog-card:last-child {
+    margin-right: 0;
+    box-shadow: none;
+  }
+
+  .blog-card-title {
+    margin-bottom: 16px;
+
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .blog-card-text {
+    margin-bottom: 34px;
+
+    font-size: 18px;
+  }
+  .blog-card-link {
+    font-size: 14px;
+    color: currentColor;
+  }

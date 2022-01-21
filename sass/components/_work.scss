@@ -1,0 +1,21 @@
+/* Work */
+.work {
+  padding-top: 164px;
+  padding-bottom: 104px;
+
+  background-color: var(--secondary-bgc-cl);
+  background-image: url(../images/thanks.jpg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 360px);
+  &__content {
+    width: 440px;
+    margin-left: auto;
+  }
+
+  &__title {
+    text-align: right;
+  }
+  &__text {
+    margin-bottom: 35px;
+  }
+}

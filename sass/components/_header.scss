@@ -1,0 +1,27 @@
+/* Header */
+.header {
+  padding: 38px 0;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}
+
+.nav {
+  &__link {
+    color: inherit;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 31px;
+
+    &:first-child {
+      margin: 0;
+    }
+  }
+}

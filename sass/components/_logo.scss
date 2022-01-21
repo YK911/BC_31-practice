@@ -1,0 +1,12 @@
+/* Logo */
+.logo {
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    line-height: 2.16;
+    color: var(--btn-secondary-cl);
+
+    &--accent {
+      color: var(--accent-txt-cl);
+    }
+  }
+

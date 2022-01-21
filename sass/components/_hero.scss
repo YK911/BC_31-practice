@@ -1,0 +1,32 @@
+/* Hero */
+.hero {
+    background-color: var(--secondary-bgc-cl);
+    background-image: url(../images/couple.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 360px);
+    padding-top: 154px;
+    padding-bottom: 135px;
+
+
+    &__container {
+      display: flex;
+    }
+    &__wrap {
+      width: 433px;
+    }
+    &__title {
+      font-size: 56px;
+      margin-bottom: 32px;
+      line-height: 1.23;
+    }
+    &__text {
+      margin-bottom: 52px;
+    }
+  }
+
+
+
+
+
+
+
